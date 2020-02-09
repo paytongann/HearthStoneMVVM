@@ -1,25 +1,17 @@
 package com.example.hearthstonemvvm.View;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModel;
-import androidx.lifecycle.ViewModelProvider;
-import androidx.lifecycle.ViewModelProviders;
-import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.os.Bundle;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
-
-import com.example.hearthstonemvvm.Model.CardPojo;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import com.example.hearthstonemvvm.Model.ResultsPojo;
 import com.example.hearthstonemvvm.R;
 import com.example.hearthstonemvvm.ViewModel.CustomAdapter;
 import com.example.hearthstonemvvm.ViewModel.CustomViewModel;
-
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
